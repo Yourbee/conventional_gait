@@ -49,11 +49,11 @@ void loop() {
     while (buer[1]) {
 
       //第一步
-      ser[2][1].changle(85);
-      ser[0][1].changle(95);
+      ser[2][1].changle(80);
+      ser[0][1].changle(100);
 
-      ser[3][2].changle(155);
-      ser[1][2].changle(165);
+      ser[3][2].changle(150);
+      ser[1][2].changle(170);
       delay(100);
 
       delay(timspace);
@@ -64,15 +64,15 @@ void loop() {
       ser[3][0].changle(105);
       ser[1][0].changle(105);
       delay(100);
-      ser[3][2].changle(165);
-      ser[1][2].changle(155);
+      ser[3][2].changle(170);
+      ser[1][2].changle(150);
       
       delay(100);
       ser[1][0].changle(115);     
       ser[3][0].changle(115);
 
-      ser[2][1].changle(95);
-      ser[0][1].changle(85); 
+      ser[2][1].changle(100);
+      ser[0][1].changle(80); 
            
       delay(100);
 
@@ -84,15 +84,15 @@ void loop() {
       ser[2][0].changle(105);
       ser[0][0].changle(105);
       delay(100);
-      ser[2][1].changle(85);
-      ser[0][1].changle(95);
+      ser[2][1].changle(80);
+      ser[0][1].changle(100);
            
       delay(100);
       ser[2][0].changle(115);
       ser[0][0].changle(115);
 
-      ser[3][2].changle(155);
-      ser[1][2].changle(165);
+      ser[3][2].changle(150);
+      ser[1][2].changle(170);
       
 
       delay(100);
